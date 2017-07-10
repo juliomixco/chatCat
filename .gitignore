@@ -1,5 +1,5 @@
 #packages
 node_modules
-
+chatCatDebug.log
 #development config
 app/config/development.json

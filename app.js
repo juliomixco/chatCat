@@ -25,11 +25,12 @@ app.use(require('morgan')('combined', {
     }
 }));
 
+//adds the router to express server
 app.use('/', chatCat.router);
 
 
 let helloMiddleware = (req, res, next) => {
-    req.hello = "Hello! Hellowin";
+    req.hello = "Hello! Hello cat";
     next();
 };
 
